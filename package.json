@@ -1,0 +1,12 @@
+{
+  "name": "pd-gulp-gfx-generator",
+  "description": "pd-gulp-gfx-generator",
+  "version": "0.0.1",
+  "dependencies": {
+    "extend": "^2.0.0",
+    "gulp-imagemin": "^2.1.0",
+    "imagemin-pngquant": "^4.0.0",
+    "pd-gulp-base-task": "git://github.com/platdesign/pd-gulp-base-task"
+  },
+  "repository": ""
+}
