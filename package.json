@@ -2,7 +2,7 @@
   "name": "pd-gulp-gfx",
   "description": "pd-gulp generator for gfx optimization tasks",
   "author": "Christian Blaschke <mail@platdesign.de>",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "dependencies": {
     "extend": "^2.0.0",
     "gulp-imagemin": "^2.1.0",
@@ -10,7 +10,7 @@
     "pd-gulp-task-generator-generator": "*"
   },
   "repository": {
-    "type" : "git",
-    "url" : "http://github.com/platdesign/pd-gulp-gfx-generator.git"
+    "type": "git",
+    "url": "http://github.com/platdesign/pd-gulp-gfx-generator.git"
   }
 }
