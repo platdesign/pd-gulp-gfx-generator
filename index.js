@@ -1,12 +1,12 @@
 'use strict';
 
-var baseTask 	= require('pd-gulp-base-task');
+var createGenerator	= require('pd-gulp-task-generator-generator');
 var extend 		= require('extend');
 var imagemin 	= require('gulp-imagemin');
 var pngquant	= require('imagemin-pngquant');
 
 
-module.exports = baseTask('Gfx', function() {
+module.exports = createGenerator('Gfx', function() {
 
 
 	this.compile(function(job, cb) {
