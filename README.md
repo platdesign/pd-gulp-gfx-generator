@@ -1,13 +1,15 @@
-#pd-gulp-gfx-generator
+#pd-gulp-gfx
+
+[pd-gulp](https://github.com/platdesign/pd-gulp) task generator for gfx tasks.
 
 ##Install
 
-	npm install --save platdesign/pd-gulp-gfx-generator
+	npm install --save pd-gulp-gfx
 	
 ##Example
 
 	var gulp = require('gulp');
-	var gfx = require('pd-gulp-gfx-generator')(gulp);
+	var gfx = require('pd-gulp-gfx')(gulp);
 
 	// Register default tasks (default, watch, build, etc.)
 	gfx.register({
