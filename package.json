@@ -9,5 +9,8 @@
     "imagemin-pngquant": "^4.0.0",
     "pd-gulp-task-generator-generator": "*"
   },
-  "repository": "https://github.com/platdesign/pd-gulp-gfx-generator"
+  "repository": {
+    "type" : "git",
+    "url" : "http://github.com/platdesign/pd-gulp-gfx-generator.git"
+  }
 }
