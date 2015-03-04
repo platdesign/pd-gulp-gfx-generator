@@ -8,25 +8,26 @@
 	
 ##Example
 
-	var gulp = require('gulp');
-	var gfx = require('pd-gulp-gfx')(gulp);
+```javascript
+var gulp = require('gulp');
+var gfx = require('pd-gulp-gfx')(gulp);
 
-	// Register default tasks (default, watch, build, etc.)
-	gfx.register({
-		myLib:{
-			src: './src/gfx/**/*.{jpg,jpeg,gif,svg,png}',
-			dest: './dist/gfx'
-		}
-	});
+// Register default tasks (default, watch, build, etc.)
+gfx.register({
+	myLib:{
+		src: './src/gfx/**/*.{jpg,jpeg,gif,svg,png}',
+		dest: './dist/gfx'
+	}
+});
 
-	// Create custom gulp-task
-	gulp.task('customGfx', gfx({
-		custom: {
-			src: './src/gfx/**/*.{jpg,jpeg,gif,svg,png}',
-			dest: './dist/gfx'
-		}
-	}));
-
+// Create custom gulp-task
+gulp.task('customGfx', gfx({
+	custom: {
+		src: './src/gfx/**/*.{jpg,jpeg,gif,svg,png}',
+		dest: './dist/gfx'
+	}
+}));
+```
 
 ##Options
 
